@@ -6,6 +6,10 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  
+#Permisos del token automático de Github Actions
+permissions: 
+  contents: read
 
 jobs:
   build-and-test:
